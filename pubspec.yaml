@@ -1,0 +1,79 @@
+name: ahtesham_s_application5
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.1
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.0
+  connectivity_plus: ^1.4.0
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  flutter_switch: ^0.3.2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Actor
+      fonts: 
+        - asset: assets/fonts/ActorRegular.ttf
+          weight: 400
+    - family: Abril Fatface
+      fonts: 
+        - asset: assets/fonts/AbrilFatfaceRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Work Sans
+      fonts: 
+        - asset: assets/fonts/WorkSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSansRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/WorkSansRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/WorkSansRomanMedium.ttf
+          weight: 500
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+    - family: Fjalla One
+      fonts: 
+        - asset: assets/fonts/FjallaOneRegular.ttf
+          weight: 400
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeItalic.ttf
+          weight: 400
+        - asset: assets/fonts/ABeeZeeRegular.ttf
+          weight: 400
+    - family: Akaya Telivigala
+      fonts: 
+        - asset: assets/fonts/AkayaTelivigalaRegular.ttf
+          weight: 400
+    - family: Advent Pro
+      fonts: 
+        - asset: assets/fonts/AdventProRegular.ttf
+          weight: 400
+    - family: Adamina
+      fonts: 
+        - asset: assets/fonts/AdaminaRegular.ttf
+          weight: 400
